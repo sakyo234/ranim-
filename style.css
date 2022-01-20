@@ -1,0 +1,340 @@
+body {
+  background: url(photos/1.jpg) center/cover;
+  height: 100vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  font-family: "Asap", sans-serif;
+  font-family: "Mukta", sans-serif;
+}
+
+main {
+  background: whitesmoke;
+  width: 80%;
+  min-height: 500px;
+  margin: auto;
+  opacity: 90%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+}
+
+@font-face {
+  font-family: "font-1";
+  src: url();
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: flex;
+  font-size: 0.7rem;
+  height: 250px;
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  ul2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  ul1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 414px) {
+  main {
+    background: whitesmoke;
+    width: 390px;
+    min-height: auto;
+    margin: auto;
+    opacity: 90%;
+    padding: auto;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    background: whitesmoke;
+    width: 80%;
+    min-height: 500px;
+    margin: auto;
+    opacity: 90%;
+    padding: 20px;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .imgn {
+    margin-left: 7cm;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .imgn {
+    margin-left: 14cm;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .imgn {
+    margin-left: 14cm;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  ul {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  ul {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+@media screen and (max-width: 375px) {
+  ul {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  main {
+    background: whitesmoke;
+    width: 390px;
+    min-height: auto;
+    margin: auto;
+    opacity: 90%;
+    padding: auto;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  main {
+    background: whitesmoke;
+    width: 1500px;
+    min-height: auto;
+    margin: auto;
+    opacity: 90%;
+    padding: auto;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 1669px) {
+  main {
+    background: whitesmoke;
+    width: 1500px;
+    min-height: auto;
+    margin: auto;
+    opacity: 90%;
+    padding: auto;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    background: whitesmoke;
+    width: 400px;
+    min-height: auto;
+    margin: auto;
+    opacity: 90%;
+    padding: auto;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .imgn {
+    display: contents;
+    margin-left: 1px;
+    display: block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  main {
+    background: whitesmoke;
+    width: 400px;
+    min-height: auto;
+    margin: auto;
+    opacity: 90%;
+    padding: auto;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .imgn {
+    display: contents;
+    margin-left: 1px;
+    display: block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    background: whitesmoke;
+    width: 400px;
+    min-height: auto;
+    margin: auto;
+    opacity: 90%;
+    padding: auto;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .imgn {
+    display: contents;
+    margin-left: 1px;
+    display: block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    background: whitesmoke;
+    width: 450px;
+    min-height: auto;
+    margin: auto;
+    opacity: 90%;
+    padding: auto;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imgn {
+    display: contents;
+    margin-left: 1px;
+    display: block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    background: whitesmoke;
+    width: 700px;
+    min-height: auto;
+    margin: auto;
+    opacity: 90%;
+    padding: auto;
+    border-radius: auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.253);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .imgn {
+    display: contents;
+    margin-left: 1px;
+    display: block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+}

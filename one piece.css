@@ -1,0 +1,11 @@
+body {
+  background: url(photos/lune.jpg) no-repeat fixed center/cover;
+  height: 100vh;
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  font-family: "Asap", sans-serif;
+  font-family: "Mukta", sans-serif;
+}
